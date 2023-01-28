@@ -6,6 +6,7 @@
   "license": "MIT",
   "private": true,
   "main": "packages/core/dist/umd/index.js",
+  "types": "packages/core/dist/esm/index.d.ts",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "turbo run dev",
