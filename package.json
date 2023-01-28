@@ -2,12 +2,12 @@
   "name": "@reactflow/monorepo",
   "version": "0.0.0",
   "files": [
-    "dist"
+    "packages/core/dist"
   ],
-  "source": "src/index.ts",
-  "main": "dist/umd/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/esm/index.d.ts",
+  "source": "packages/core/src/index.ts",
+  "main": "packages/core/dist/umd/index.js",
+  "module": "packages/core/dist/esm/index.js",
+  "types": "packages/core/dist/esm/index.d.ts",
   "description": "A highly customizable React library for building node-based editors and interactive flow charts",
   "repository": "git@github.com:wbkd/react-flow.git",
   "license": "MIT",
