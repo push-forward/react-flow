@@ -112,6 +112,7 @@ const FlowRenderer = ({
       preventScrolling={preventScrolling}
       noWheelClassName={noWheelClassName}
       noPanClassName={noPanClassName}
+      selectionKeyPressed={selectionKeyPressed}
     >
       <UserSelection
         onSelectionStart={onSelectionStart}
